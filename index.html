@@ -32,19 +32,21 @@
 
         .flag-container {
             position: relative;
-            width: 150px;
             height: 110px;
+            text-align: center;
             margin: 0 auto;
             animation: wave 2s infinite;
+            
         }
 
         .flag {
             width: 100%;
             height: 100%;
+            
             position: absolute;
             top: 0;
             left: 0;
-            background: url('img/pakistan_flag.png') no-repeat;
+            /* background: url('img/pakistan_flag.png') no-repeat; */
             background-size: cover;
             animation: wave 2s infinite;
         }
@@ -76,7 +78,7 @@
             }
 
             50% {
-                transform: translatey(-10px);
+                transform: translatey(-20px);
             }
         }
 
@@ -84,7 +86,7 @@
             font-size: 40px;
             font-weight: 700;
             color: #333333;
-            margin: 40px 0;
+            margin: 100px 0;
             font-family: 'Roboto', sans-serif;
 
 
@@ -137,8 +139,13 @@
                 <img src="img/pakistan_flag.png" alt="">
             </div>
         </div> -->
-        <div class="row text-center">
+        <!-- <div class="row text-center">
             <div class="col-lg-12 ">
+                <img src="img/pakistan_flag.png" alt="">
+            </div>
+        </div> -->
+        <div class="flag-container my-5 ">
+            <div class="flag">
                 <img src="img/pakistan_flag.png" alt="">
             </div>
         </div>
