@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/pakistan_flag.png" type="image/x-icon">
+
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+        } */
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .flag-container {
+            position: relative;
+            width: 150px;
+            height: 110px;
+            margin: 0 auto;
+            animation: wave 2s infinite;
+        }
+
+        .flag {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('img/pakistan_flag.png') no-repeat;
+            background-size: cover;
+            animation: wave 2s infinite;
+        }
+
+        .box {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 220px;
+            padding-top: 30px;
+            padding-bottom: 100px;
+            border-radius: 10px;
+
+        }
+
+        .box1 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 220px;
+            padding-top: 30px;
+            padding-bottom: 100px;
+            border-radius: 10px;
+            color: white;
+            background-color: #1C472C;
+        }
+
+        @keyframes wave {
+
+            0%,
+            100% {
+                transform: translatey(0px);
+            }
+
+            50% {
+                transform: translatey(-10px);
+            }
+        }
+
+        .heading {
+            font-size: 40px;
+            font-weight: 700;
+            color: #333333;
+            margin: 40px 0;
+            font-family: 'Roboto', sans-serif;
+
+
+        }
+
+        .poem {
+
+            font-size: 18px;
+            line-height: 1.5;
+            color: #000000;
+            margin-bottom: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .wishing {
+            font-size: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-weight: 700;
+            margin-top: 45px;
+        }
+
+        @media only screen and (min-width: 0px) and (max-width:400px) {
+            .box {
+                height: 320px;
+                padding-top: 30px;
+                padding-bottom: 100px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .box1 {
+                height: 300px;
+                margin-top: 30px;
+                padding-top: 30px;
+                padding-bottom: 100px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+    </style>
+    <title>Happy Independence Day!</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="flag-container">
+
+            <div class="flag">
+                <img src="img/pakistan_flag.png" alt="">
+            </div>
+        </div> -->
+        <div class="row text-center">
+            <div class="col-lg-12 ">
+                <img src="img/pakistan_flag.png" alt="">
+            </div>
+        </div>
+        <h1 class="heading">Happy Independence Day!</h1>
+
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <div class="box pb-5 ">
+                    <div class="poem">
+                        <p>With hearts full of joy and pride so high,</p>
+                        <p>We celebrate our nation, reaching for the sky.</p>
+                        <p>On this day of freedom, let's unite and stand,</p>
+                        <p>For a prosperous Pakistan, hand in hand.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 mt-5">
+                <div class="box1 pb-5 ">
+                    <p>Happy Independence Day, oh land so dear,</p>
+                    <p>Let our unity shine, let freedom be clear.</p>
+                    <p>With every passing moment, let's renew,</p>
+                    <p>Our commitment to Pakistan, strong and true.</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="wishing">Wishing you a memorable 14th August!</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
